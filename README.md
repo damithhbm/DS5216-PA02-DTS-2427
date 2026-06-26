@@ -39,9 +39,35 @@ report/         Final assignment report
 screenshots/    Output screenshots
 inouts/        Dataset(links)
 
-Output Screenshots
-1. Training and Validation Curves
+## Output Screenshots
+
+### 1. Training and Validation Curves
 
 The following figure shows the training and validation curves generated during YOLO model training. The loss values gradually decrease, while precision, recall, and mAP values improve during training.
 
-<img src="PA02-Player-Tracking/screenshots/01_training_curves_results.png" width="800">
+<img src="screenshots/01_training_curves_results.png" width="800">
+
+---
+
+### 2. Player Detection Output
+
+The fine-tuned YOLO11n model was able to detect players in validation frames and draw bounding boxes with confidence scores.
+
+<img src="screenshots/02_validation_detection_output.jpg" width="800">
+
+---
+
+### 3. Player Tracking Output
+
+ByteTrack was applied after detection to track players across video frames. The tracking output shows player bounding boxes with consistent tracking IDs.
+
+<img src="screenshots/03_tracked_video_frame.jpg" width="800">
+
+---
+
+### 4. Pose / Keypoint Detection Output
+
+For the bonus task, a YOLO pose estimation model was used to detect player body keypoints such as shoulders, elbows, wrists, hips, knees, and ankles.
+
+<img src="screenshots/04_pose_keypoint_output.jpg" width="800">
+
