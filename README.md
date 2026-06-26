@@ -44,4 +44,4 @@ Output Screenshots
 
 The following figure shows the training and validation curves generated during YOLO model training. The loss values gradually decrease, while precision, recall, and mAP values improve during training.
 
-<img src="screenshots/01_training_curves_results.png" width="800">
+<img src="PA02-Player-Tracking/screenshots/01_training_curves_results.png" width="800">
