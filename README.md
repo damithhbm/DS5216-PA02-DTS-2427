@@ -38,3 +38,10 @@ notebook/       Jupyter notebook implementation
 report/         Final assignment report
 screenshots/    Output screenshots
 inouts/        Dataset(links)
+
+Output Screenshots
+1. Training and Validation Curves
+
+The following figure shows the training and validation curves generated during YOLO model training. The loss values gradually decrease, while precision, recall, and mAP values improve during training.
+
+<img src="screenshots/01_training_curves_results.png" width="800">
