@@ -53,7 +53,7 @@ The following figure shows the training and validation curves generated during Y
 
 The fine-tuned YOLO11n model was able to detect players in validation frames and draw bounding boxes with confidence scores.
 
-<img src="screenshots/02_validation_detection_output.jpg" width="800">
+<img src="PA02-Player-Tracking/screenshots/4AwYxLFcX74_clip_0017 (1).jpg" width="800">
 
 ---
 
@@ -61,7 +61,7 @@ The fine-tuned YOLO11n model was able to detect players in validation frames and
 
 ByteTrack was applied after detection to track players across video frames. The tracking output shows player bounding boxes with consistent tracking IDs.
 
-<img src="screenshots/03_tracked_video_frame.jpg" width="800">
+<img src="PA02-Player-Tracking/screenshots/4AwYxLFcX74_clip_0023.jpg" width="800">
 
 ---
 
@@ -69,5 +69,5 @@ ByteTrack was applied after detection to track players across video frames. The 
 
 For the bonus task, a YOLO pose estimation model was used to detect player body keypoints such as shoulders, elbows, wrists, hips, knees, and ankles.
 
-<img src="screenshots/04_pose_keypoint_output.jpg" width="800">
+<img src="PA02-Player-Tracking/screenshots/hIsYsd4yX7o_clip_0045.jpg" width="800">
 
